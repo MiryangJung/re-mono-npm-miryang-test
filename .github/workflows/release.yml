@@ -21,11 +21,6 @@ jobs:
         with:
           node-version: '14'
 
-      - name: Fix .npmrc
-        run: sed -i 's/\${NPM_REGISTRY_TOKEN}/'"${NPM_REGISTRY_TOKEN}"'/' .npmrc
-        env:
-          NPM_REGISTRY_TOKEN: ${{ secrets.NPM_REGISTRY_TOKEN }}
-
       - name: Install Dependencies
         run: yarn boot
 
@@ -41,7 +36,7 @@ jobs:
           title: 'chore(release): version packages'
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          
+
       - name: Creating .npmrc
         run: |
           cat << EOF > "$HOME/.npmrc"
