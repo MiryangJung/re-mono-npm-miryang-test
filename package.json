@@ -21,7 +21,8 @@
     "build": "lerna run build",
     "release": "changeset publish",
     "boot": "yarn --frozen-lockfile && yarn bootstrap",
-    "bootstrap": "yarn lerna:bootstrap"
+    "bootstrap": "yarn lerna:bootstrap",
+    "lerna:bootstrap": "lerna bootstrap --use-workspaces"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
