@@ -1,6 +1,6 @@
 {
-  "name": "@re-mono-npm-miryang-test/before",
-  "version": "4.0.0",
+  "name": "re-mono-npm-miryang-test-before",
+  "version": "3.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {

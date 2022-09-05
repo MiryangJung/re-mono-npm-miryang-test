@@ -29,7 +29,7 @@ jobs:
 
       - name: Create release Pull request or Publish npm
         id: changesets
-        uses: changesets/action@master
+        uses: changesets/action@v1
         with:
           publish: yarn release
           commit: 'chore(release): version packages'
