@@ -3,4 +3,4 @@
 "re-mono-npm-miryang-test-next": major
 ---
 
-ㅁㅁㄹㅇㄴㅁㄹㅁ
+new
