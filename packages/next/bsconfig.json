@@ -1,6 +1,6 @@
 
 {
-    "name": "next",
+    "name": "re-mono-npm-miryang-test-next",
     "reason": { "react-jsx": 3 },
     "package-specs": {
       "module": "es6",
