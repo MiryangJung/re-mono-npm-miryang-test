@@ -24,9 +24,6 @@
     "bootstrap": "yarn lerna:bootstrap",
     "lerna:bootstrap": "lerna bootstrap --use-workspaces"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/MiryangJung/re-mono-npm-miryang-test.git"
