@@ -9,7 +9,6 @@
     "re:clean-build": "rescript clean && rescript",
     "start": "npm run re:start",
     "build": "npm run re:build",
-    "test": "npm run re:clean-build",
-    "release": "npmpub"
+    "test": "npm run re:clean-build"
   }
 }
