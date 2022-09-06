@@ -3,4 +3,4 @@
 "@miryangjung/re-mono-npm-miryang-test-next": major
 ---
 
-aaa
+afafaf

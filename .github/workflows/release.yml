@@ -25,7 +25,7 @@ jobs:
         run: yarn boot
 
       - name: Build packages
-        run: yarn build
+        run: rm -rf node_modules && yarn build
 
       - name: Create release Pull request or Publish npm
         id: changesets
