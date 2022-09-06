@@ -3,12 +3,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "re:start": "rescript build -w",
-    "re:build": "rescript",
-    "re:clean-build": "rescript clean && rescript",
-    "start": "npm run re:start",
-    "build": "npm run re:build",
-    "test": "npm run re:clean-build"
+    "start": "rescript build -w",
+    "build": "rescript build -with-deps"
   },
   "publishConfig": {
     "access": "public"
